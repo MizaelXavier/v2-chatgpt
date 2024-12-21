@@ -7,8 +7,8 @@ import './globals.css';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://chat.vercel.ai'),
-  title: 'Next.js Chatbot Template',
-  description: 'Next.js chatbot template using the AI SDK.',
+  title: 'ChatGPT Basil',
+  description: 'ChatGPT grátis em português',
 };
 
 export const viewport = {
@@ -42,7 +42,7 @@ export default async function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="pt-BR"
       // `next-themes` injects an extra classname to the body element to avoid
       // visual flicker before hydration. Hence the `suppressHydrationWarning`
       // prop is necessary to avoid the React hydration mismatch warning.
